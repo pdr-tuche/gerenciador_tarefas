@@ -23,7 +23,7 @@ void Lista::removerTarefa(string d){
 void Lista::mudarStatus(string d){
     for (int i = 0;i < lista.size(); i++){
         if(lista[i].getDescricao() == d){
-            if(lista[i].getStatus() == "Completo"){
+            if(lista[i].getStatus() == "Completo!"){
                 lista[i].setStatus(0);
             }else{
                 lista[i].setStatus(1);
